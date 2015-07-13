@@ -3,8 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Seats</title>
+  <link rel="stylesheet" href="public/style.css">
 </head>
 <body>
-  
+  <section>
+    {{#seats}}
+      <h1 id="{{seatID}}" class="seat">{{seatID}}</h1>
+    {{/seats}}
+  </section>
 </body>
 </html>

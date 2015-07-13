@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: white;
+}
+
+section {
+  width: 80vw;
+  height: 80vw;
+}
+.seat {
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  border-radius: 80px;
+  font-size: 50px;
+}
